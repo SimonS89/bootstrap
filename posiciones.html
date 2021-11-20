@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/93ac67a0ba.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+                integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+                crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Resultados</title>
+</head>
+
+<body>
+        <!-- H eader -->
+        <header class=" sticky-top">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                        <div class="container">
+                                <img class="logo " d-inline-block align-text-top" src="img/logo.png" alt="">
+                                <a class="navbar-brand fs-4" href="index.html"> “Tocá, aprendé
+                                        y jugá ”
+                                </a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+                                                <li class="nav-item ps-3 pe-3">
+                                                        <a class="nav-link active" aria-current="page"
+                                                                href="index.html">Home</a>
+                                                </li>
+                                                <li class="nav-item ps-3 pe-3">
+                                                        <a class="nav-link active" href="posiciones.html">Posiciones</a>
+                                                </li>
+                                                <li class="nav-item dropdown ps-3 pe-3">
+                                                        <a class="nav-link active dropdown-toggle" href="#"
+                                                                id="navbarDropdown" role="button"
+                                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                                Ver más
+                                                        </a>
+                                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                                <li><a class="dropdown-item"
+                                                                                href="resultados.html">Resultados</a>
+                                                                </li>
+                                                                <li><a class="dropdown-item"
+                                                                                href="fixture.html">Fixture</a>
+                                                                </li>
+                                                                <li>
+                                                                </li>
+                                                                <li><a class="dropdown-item"
+                                                                                href="clubes.html">Clubes</a>
+                                                                </li>
+                                                                <li><a class="dropdown-item"
+                                                                                href="historia.html">Historia de la
+                                                                                liga</a>
+                                                                </li>
+                                                                <li><a class="dropdown-item"
+                                                                                href="jugadores.html">Jugadores
+                                                                                destacados</a>
+                                                                </li>
+                                                                <li><a class="dropdown-item"
+                                                                                href="informacion.html">Horarios y
+                                                                                direcciones</a>
+                                                                </li>
+                                                        </ul>
+                                                </li>
+                                                <li class="nav-item ps-3 pe-3">
+                                                        <a class="nav-link active" href="contacto.html">Contacto</a>
+                                                </li>
+                                                <li class="nav-item ps-3 pe-3">
+                                                        <a class="nav-link active text-lifipa"
+                                                                href="contacto.html">Login</a>
+                                                </li>
+                                        </ul>
+                                </div>
+                        </div>
+                </nav>
+        </header>
+        <!-- /H eader -->
+
+        <!-- Main Tabla de Posiciones -->
+        <main id="main">
+                <div id="carousel">
+                        <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                        <img src="img/posiciones.jpg" class="d-block w-100  img-fluid"
+                                                alt="Kids playing soccer">
+                                </div>
+                                <div class="overlay">
+                                        <div class="container">
+                                                <div class="row align-items-center">
+                                                        <div class="col-md-6 offset-md-6 text-center text-md-end">
+                                                                <h1>L.I.F.I.P.A.</h1>
+                                                                <p class="d-none d-md-block fs-5">La Liga Independiente
+                                                                        de
+                                                                        Fútbol Infantil Platense Amateur (LIFIPA) es la
+                                                                        entidad de fútbol
+                                                                        infantil más antigua de la
+                                                                        Región y la que más historia reúne a lo largo de
+                                                                        estos años. Fue creada el 18 de agosto de 1976,
+                                                                        a imagen y semejanza de
+                                                                        los tradicionales torneos de verano que se
+                                                                        organizaron en la Escuela Nº 66.</p>
+                                                                <p class="d-xl-block">“ENTRENA Y COMPITE CONTRA
+                                                                        TI MISMO, TU ERES TU MÁXIMO RIVAL. LOS DEMÁS SON
+                                                                        COMPAÑEROS DE LOS QUE SE PUEDE APRENDER
+                                                                        MUCHO”.</p>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div class="container-fluid bg-primary">
+                        <div class="row">
+                                <div class="col text-center text-uppercase border border-5 border-light">
+                                        <h2 class="fw-bolder fs-2 pb-4 pt-4"><span class="text-warning">Tablas de
+                                                        posiciones</span>
+                                                <span class="text-white"> Torneo Apertura</span>
+                                        </h2>
+                                </div>
+                        </div>
+                        <div class="container pt-5 pb-5">
+                                <div class="row  row-cols-1 row-cols-md-2 g-4">
+                                        <div class="col col-md-6">
+                                                <h1 class="text-center text-white">Categoria 2009</h1>
+                                                <table
+                                                        class="table table-primary table-striped table-hover table-bordered text-center">
+                                                        <thead>
+                                                                <tr>
+                                                                        <th scope="col">Posiciones</th>
+                                                                        <th scope="col">Puntos</th>
+                                                                        <th scope="col">PJ</th>
+                                                                        <th scope="col">PG</th>
+                                                                        <th scope="col">PE</th>
+                                                                        <th scope="col">PP</th>
+
+                                                                </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                                <tr>
+                                                                        <td>EDLP</td>
+                                                                        <td>120</td>
+                                                                        <td>61</td>
+                                                                        <td>60</td>
+                                                                        <td>0</td>
+                                                                        <td>1</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Dep. Berisso</td>
+                                                                        <td>94</td>
+                                                                        <td>70</td>
+                                                                        <td>43</td>
+                                                                        <td>8</td>
+                                                                        <td>19</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Fatima</td>
+                                                                        <td>84</td>
+                                                                        <td>70</td>
+                                                                        <td>34</td>
+                                                                        <td>16</td>
+                                                                        <td>20</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>J. Aguirre</td>
+                                                                        <td>74</td>
+                                                                        <td>70</td>
+                                                                        <td>32</td>
+                                                                        <td>10</td>
+                                                                        <td>28</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Aeropuerto</td>
+                                                                        <td>73</td>
+                                                                        <td>63</td>
+                                                                        <td>30</td>
+                                                                        <td>13</td>
+                                                                        <td>20</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>EDLP</td>
+                                                                        <td>120</td>
+                                                                        <td>61</td>
+                                                                        <td>60</td>
+                                                                        <td>0</td>
+                                                                        <td>1</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Dep. Berisso</td>
+                                                                        <td>94</td>
+                                                                        <td>70</td>
+                                                                        <td>43</td>
+                                                                        <td>8</td>
+                                                                        <td>19</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Fatima</td>
+                                                                        <td>84</td>
+                                                                        <td>70</td>
+                                                                        <td>34</td>
+                                                                        <td>16</td>
+                                                                        <td>20</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>J. Aguirre</td>
+                                                                        <td>74</td>
+                                                                        <td>70</td>
+                                                                        <td>32</td>
+                                                                        <td>10</td>
+                                                                        <td>28</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Aeropuerto</td>
+                                                                        <td>73</td>
+                                                                        <td>63</td>
+                                                                        <td>30</td>
+                                                                        <td>13</td>
+                                                                        <td>20</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>EDLP</td>
+                                                                        <td>120</td>
+                                                                        <td>61</td>
+                                                                        <td>60</td>
+                                                                        <td>0</td>
+                                                                        <td>1</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Dep. Berisso</td>
+                                                                        <td>94</td>
+                                                                        <td>70</td>
+                                                                        <td>43</td>
+                                                                        <td>8</td>
+                                                                        <td>19</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Fatima</td>
+                                                                        <td>84</td>
+                                                                        <td>70</td>
+                                                                        <td>34</td>
+                                                                        <td>16</td>
+                                                                        <td>20</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>J. Aguirre</td>
+                                                                        <td>74</td>
+                                                                        <td>70</td>
+                                                                        <td>32</td>
+                                                                        <td>10</td>
+                                                                        <td>28</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Aeropuerto</td>
+                                                                        <td>73</td>
+                                                                        <td>63</td>
+                                                                        <td>30</td>
+                                                                        <td>13</td>
+                                                                        <td>20</td>
+
+                                                                </tr>
+                                                        </tbody>
+                                                </table>
+                                        </div>
+                                        <div class="col col-md-6">
+                                                <h1 class="text-center text-white">Categoria 2010</h1>
+                                                <table
+                                                        class="table table-primary table-striped table-hover table-bordered text-center">
+                                                        <thead>
+                                                                <tr>
+                                                                        <th scope="col">Posiciones</th>
+                                                                        <th scope="col">Puntos</th>
+                                                                        <th scope="col">PJ</th>
+                                                                        <th scope="col">PG</th>
+                                                                        <th scope="col">PE</th>
+                                                                        <th scope="col">PP</th>
+
+                                                                </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                                <tr>
+                                                                        <td>EDLP</td>
+                                                                        <td>120</td>
+                                                                        <td>61</td>
+                                                                        <td>60</td>
+                                                                        <td>0</td>
+                                                                        <td>1</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Dep. Berisso</td>
+                                                                        <td>94</td>
+                                                                        <td>70</td>
+                                                                        <td>43</td>
+                                                                        <td>8</td>
+                                                                        <td>19</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Fatima</td>
+                                                                        <td>84</td>
+                                                                        <td>70</td>
+                                                                        <td>34</td>
+                                                                        <td>16</td>
+                                                                        <td>20</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>J. Aguirre</td>
+                                                                        <td>74</td>
+                                                                        <td>70</td>
+                                                                        <td>32</td>
+                                                                        <td>10</td>
+                                                                        <td>28</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Aeropuerto</td>
+                                                                        <td>73</td>
+                                                                        <td>63</td>
+                                                                        <td>30</td>
+                                                                        <td>13</td>
+                                                                        <td>20</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>EDLP</td>
+                                                                        <td>120</td>
+                                                                        <td>61</td>
+                                                                        <td>60</td>
+                                                                        <td>0</td>
+                                                                        <td>1</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Dep. Berisso</td>
+                                                                        <td>94</td>
+                                                                        <td>70</td>
+                                                                        <td>43</td>
+                                                                        <td>8</td>
+                                                                        <td>19</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Fatima</td>
+                                                                        <td>84</td>
+                                                                        <td>70</td>
+                                                                        <td>34</td>
+                                                                        <td>16</td>
+                                                                        <td>20</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>J. Aguirre</td>
+                                                                        <td>74</td>
+                                                                        <td>70</td>
+                                                                        <td>32</td>
+                                                                        <td>10</td>
+                                                                        <td>28</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Aeropuerto</td>
+                                                                        <td>73</td>
+                                                                        <td>63</td>
+                                                                        <td>30</td>
+                                                                        <td>13</td>
+                                                                        <td>20</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>EDLP</td>
+                                                                        <td>120</td>
+                                                                        <td>61</td>
+                                                                        <td>60</td>
+                                                                        <td>0</td>
+                                                                        <td>1</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Dep. Berisso</td>
+                                                                        <td>94</td>
+                                                                        <td>70</td>
+                                                                        <td>43</td>
+                                                                        <td>8</td>
+                                                                        <td>19</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Fatima</td>
+                                                                        <td>84</td>
+                                                                        <td>70</td>
+                                                                        <td>34</td>
+                                                                        <td>16</td>
+                                                                        <td>20</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>J. Aguirre</td>
+                                                                        <td>74</td>
+                                                                        <td>70</td>
+                                                                        <td>32</td>
+                                                                        <td>10</td>
+                                                                        <td>28</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Aeropuerto</td>
+                                                                        <td>73</td>
+                                                                        <td>63</td>
+                                                                        <td>30</td>
+                                                                        <td>13</td>
+                                                                        <td>20</td>
+
+                                                                </tr>
+                                                        </tbody>
+                                                </table>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="container pt-5 pb-5">
+                                <div class="row  row-cols-1 row-cols-md-2 g-4">
+                                        <div class="col col-md-6">
+                                                <h1 class="text-center text-white">Categoria 2008</h1>
+                                                <table
+                                                        class="table table-primary table-striped table-hover table-bordered text-center">
+                                                        <thead>
+                                                                <tr>
+                                                                        <th scope="col">Posiciones</th>
+                                                                        <th scope="col">Puntos</th>
+                                                                        <th scope="col">PJ</th>
+                                                                        <th scope="col">PG</th>
+                                                                        <th scope="col">PE</th>
+                                                                        <th scope="col">PP</th>
+
+                                                                </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                                <tr>
+                                                                        <td>EDLP</td>
+                                                                        <td>120</td>
+                                                                        <td>61</td>
+                                                                        <td>60</td>
+                                                                        <td>0</td>
+                                                                        <td>1</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Dep. Berisso</td>
+                                                                        <td>94</td>
+                                                                        <td>70</td>
+                                                                        <td>43</td>
+                                                                        <td>8</td>
+                                                                        <td>19</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Fatima</td>
+                                                                        <td>84</td>
+                                                                        <td>70</td>
+                                                                        <td>34</td>
+                                                                        <td>16</td>
+                                                                        <td>20</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>J. Aguirre</td>
+                                                                        <td>74</td>
+                                                                        <td>70</td>
+                                                                        <td>32</td>
+                                                                        <td>10</td>
+                                                                        <td>28</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Aeropuerto</td>
+                                                                        <td>73</td>
+                                                                        <td>63</td>
+                                                                        <td>30</td>
+                                                                        <td>13</td>
+                                                                        <td>20</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>EDLP</td>
+                                                                        <td>120</td>
+                                                                        <td>61</td>
+                                                                        <td>60</td>
+                                                                        <td>0</td>
+                                                                        <td>1</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Dep. Berisso</td>
+                                                                        <td>94</td>
+                                                                        <td>70</td>
+                                                                        <td>43</td>
+                                                                        <td>8</td>
+                                                                        <td>19</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Fatima</td>
+                                                                        <td>84</td>
+                                                                        <td>70</td>
+                                                                        <td>34</td>
+                                                                        <td>16</td>
+                                                                        <td>20</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>J. Aguirre</td>
+                                                                        <td>74</td>
+                                                                        <td>70</td>
+                                                                        <td>32</td>
+                                                                        <td>10</td>
+                                                                        <td>28</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Aeropuerto</td>
+                                                                        <td>73</td>
+                                                                        <td>63</td>
+                                                                        <td>30</td>
+                                                                        <td>13</td>
+                                                                        <td>20</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>EDLP</td>
+                                                                        <td>120</td>
+                                                                        <td>61</td>
+                                                                        <td>60</td>
+                                                                        <td>0</td>
+                                                                        <td>1</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Dep. Berisso</td>
+                                                                        <td>94</td>
+                                                                        <td>70</td>
+                                                                        <td>43</td>
+                                                                        <td>8</td>
+                                                                        <td>19</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Fatima</td>
+                                                                        <td>84</td>
+                                                                        <td>70</td>
+                                                                        <td>34</td>
+                                                                        <td>16</td>
+                                                                        <td>20</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>J. Aguirre</td>
+                                                                        <td>74</td>
+                                                                        <td>70</td>
+                                                                        <td>32</td>
+                                                                        <td>10</td>
+                                                                        <td>28</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Aeropuerto</td>
+                                                                        <td>73</td>
+                                                                        <td>63</td>
+                                                                        <td>30</td>
+                                                                        <td>13</td>
+                                                                        <td>20</td>
+
+                                                                </tr>
+                                                        </tbody>
+                                                </table>
+                                        </div>
+                                        <div class="col col-md-6">
+                                                <h1 class="text-center text-white">Categoria 2007</h1>
+                                                <table
+                                                        class="table table-primary table-striped table-hover table-bordered text-center">
+                                                        <thead>
+                                                                <tr>
+                                                                        <th scope="col">Posiciones</th>
+                                                                        <th scope="col">Puntos</th>
+                                                                        <th scope="col">PJ</th>
+                                                                        <th scope="col">PG</th>
+                                                                        <th scope="col">PE</th>
+                                                                        <th scope="col">PP</th>
+
+                                                                </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                                <tr>
+                                                                        <td>EDLP</td>
+                                                                        <td>120</td>
+                                                                        <td>61</td>
+                                                                        <td>60</td>
+                                                                        <td>0</td>
+                                                                        <td>1</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Dep. Berisso</td>
+                                                                        <td>94</td>
+                                                                        <td>70</td>
+                                                                        <td>43</td>
+                                                                        <td>8</td>
+                                                                        <td>19</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Fatima</td>
+                                                                        <td>84</td>
+                                                                        <td>70</td>
+                                                                        <td>34</td>
+                                                                        <td>16</td>
+                                                                        <td>20</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>J. Aguirre</td>
+                                                                        <td>74</td>
+                                                                        <td>70</td>
+                                                                        <td>32</td>
+                                                                        <td>10</td>
+                                                                        <td>28</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Aeropuerto</td>
+                                                                        <td>73</td>
+                                                                        <td>63</td>
+                                                                        <td>30</td>
+                                                                        <td>13</td>
+                                                                        <td>20</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>EDLP</td>
+                                                                        <td>120</td>
+                                                                        <td>61</td>
+                                                                        <td>60</td>
+                                                                        <td>0</td>
+                                                                        <td>1</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Dep. Berisso</td>
+                                                                        <td>94</td>
+                                                                        <td>70</td>
+                                                                        <td>43</td>
+                                                                        <td>8</td>
+                                                                        <td>19</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Fatima</td>
+                                                                        <td>84</td>
+                                                                        <td>70</td>
+                                                                        <td>34</td>
+                                                                        <td>16</td>
+                                                                        <td>20</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>J. Aguirre</td>
+                                                                        <td>74</td>
+                                                                        <td>70</td>
+                                                                        <td>32</td>
+                                                                        <td>10</td>
+                                                                        <td>28</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Aeropuerto</td>
+                                                                        <td>73</td>
+                                                                        <td>63</td>
+                                                                        <td>30</td>
+                                                                        <td>13</td>
+                                                                        <td>20</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>EDLP</td>
+                                                                        <td>120</td>
+                                                                        <td>61</td>
+                                                                        <td>60</td>
+                                                                        <td>0</td>
+                                                                        <td>1</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Dep. Berisso</td>
+                                                                        <td>94</td>
+                                                                        <td>70</td>
+                                                                        <td>43</td>
+                                                                        <td>8</td>
+                                                                        <td>19</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Fatima</td>
+                                                                        <td>84</td>
+                                                                        <td>70</td>
+                                                                        <td>34</td>
+                                                                        <td>16</td>
+                                                                        <td>20</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>J. Aguirre</td>
+                                                                        <td>74</td>
+                                                                        <td>70</td>
+                                                                        <td>32</td>
+                                                                        <td>10</td>
+                                                                        <td>28</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Aeropuerto</td>
+                                                                        <td>73</td>
+                                                                        <td>63</td>
+                                                                        <td>30</td>
+                                                                        <td>13</td>
+                                                                        <td>20</td>
+
+                                                                </tr>
+                                                        </tbody>
+                                                </table>
+                                        </div>
+
+                                </div>
+                                <div class="container pt-5 pb-5">
+                                        <div class="row  row-cols-1 row-cols-md-2 g-4">
+                                                <div class="col col-md-6">
+                                                        <h1 class="text-center text-white">Tabla general</h1>
+                                                        <table
+                                                                class="table table-primary table-striped table-hover table-bordered text-center">
+                                                                <thead>
+                                                                        <tr>
+                                                                                <th scope="col">Posiciones</th>
+                                                                                <th scope="col">Puntos</th>
+                                                                                <th scope="col">PJ</th>
+                                                                                <th scope="col">PG</th>
+                                                                                <th scope="col">PE</th>
+                                                                                <th scope="col">PP</th>
+
+                                                                        </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                        <tr>
+                                                                                <td>EDLP</td>
+                                                                                <td>120</td>
+                                                                                <td>61</td>
+                                                                                <td>60</td>
+                                                                                <td>0</td>
+                                                                                <td>1</td>
+
+                                                                        </tr>
+                                                                        <tr>
+                                                                                <td>Dep. Berisso</td>
+                                                                                <td>94</td>
+                                                                                <td>70</td>
+                                                                                <td>43</td>
+                                                                                <td>8</td>
+                                                                                <td>19</td>
+
+                                                                        </tr>
+                                                                        <tr>
+                                                                                <td>Fatima</td>
+                                                                                <td>84</td>
+                                                                                <td>70</td>
+                                                                                <td>34</td>
+                                                                                <td>16</td>
+                                                                                <td>20</td>
+
+                                                                        </tr>
+                                                                        <tr>
+                                                                                <td>J. Aguirre</td>
+                                                                                <td>74</td>
+                                                                                <td>70</td>
+                                                                                <td>32</td>
+                                                                                <td>10</td>
+                                                                                <td>28</td>
+
+                                                                        </tr>
+                                                                        <tr>
+                                                                                <td>Aeropuerto</td>
+                                                                                <td>73</td>
+                                                                                <td>63</td>
+                                                                                <td>30</td>
+                                                                                <td>13</td>
+                                                                                <td>20</td>
+
+                                                                        </tr>
+                                                                        <tr>
+                                                                                <td>EDLP</td>
+                                                                                <td>120</td>
+                                                                                <td>61</td>
+                                                                                <td>60</td>
+                                                                                <td>0</td>
+                                                                                <td>1</td>
+
+                                                                        </tr>
+                                                                        <tr>
+                                                                                <td>Dep. Berisso</td>
+                                                                                <td>94</td>
+                                                                                <td>70</td>
+                                                                                <td>43</td>
+                                                                                <td>8</td>
+                                                                                <td>19</td>
+
+                                                                        </tr>
+                                                                        <tr>
+                                                                                <td>Fatima</td>
+                                                                                <td>84</td>
+                                                                                <td>70</td>
+                                                                                <td>34</td>
+                                                                                <td>16</td>
+                                                                                <td>20</td>
+
+                                                                        </tr>
+                                                                        <tr>
+                                                                                <td>J. Aguirre</td>
+                                                                                <td>74</td>
+                                                                                <td>70</td>
+                                                                                <td>32</td>
+                                                                                <td>10</td>
+                                                                                <td>28</td>
+
+                                                                        </tr>
+                                                                        <tr>
+                                                                                <td>Aeropuerto</td>
+                                                                                <td>73</td>
+                                                                                <td>63</td>
+                                                                                <td>30</td>
+                                                                                <td>13</td>
+                                                                                <td>20</td>
+
+                                                                        </tr>
+                                                                        <tr>
+                                                                                <td>EDLP</td>
+                                                                                <td>120</td>
+                                                                                <td>61</td>
+                                                                                <td>60</td>
+                                                                                <td>0</td>
+                                                                                <td>1</td>
+
+                                                                        </tr>
+                                                                        <tr>
+                                                                                <td>Dep. Berisso</td>
+                                                                                <td>94</td>
+                                                                                <td>70</td>
+                                                                                <td>43</td>
+                                                                                <td>8</td>
+                                                                                <td>19</td>
+
+                                                                        </tr>
+                                                                        <tr>
+                                                                                <td>Fatima</td>
+                                                                                <td>84</td>
+                                                                                <td>70</td>
+                                                                                <td>34</td>
+                                                                                <td>16</td>
+                                                                                <td>20</td>
+
+                                                                        </tr>
+                                                                        <tr>
+                                                                                <td>J. Aguirre</td>
+                                                                                <td>74</td>
+                                                                                <td>70</td>
+                                                                                <td>32</td>
+                                                                                <td>10</td>
+                                                                                <td>28</td>
+
+                                                                        </tr>
+                                                                        <tr>
+                                                                                <td>Aeropuerto</td>
+                                                                                <td>73</td>
+                                                                                <td>63</td>
+                                                                                <td>30</td>
+                                                                                <td>13</td>
+                                                                                <td>20</td>
+
+                                                                        </tr>
+                                                                </tbody>
+                                                        </table>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+
+
+                <!-- Footer -->
+
+                <footer id="footer" class="pb-5 pt-5 ">
+                        <div class="container fs-5">
+                                <div class="row text-center">
+                                        <div class="col-12 col-lg"> <a href="#">Derechos reservados</a> </div>
+                                        <div class="col-12 col-lg"> <a href="contacto.html">Contáctanos</a>
+                                        </div>
+                                        <div class="col-12 col-lg"> <a href="#"> Preguntas frecuentes</a>
+                                        </div>
+                                        <div class="col-12 col-lg"> <a
+                                                        href="https://www.facebook.com/Lifipa-494705017259516"
+                                                        target="_blank"><i class=" fab fa-facebook"></i></a>
+                                        </div>
+                                        <div class="col-12 col-lg"> <a href="https://www.instagram.com/lifipa_oficial/"
+                                                        target="_blank"><i class=" fab fa-instagram"></i></a>
+                                        </div>
+                                </div>
+                        </div>
+                </footer>
+
+                <!-- /Footer-->
+
+                <!-- Bootstrap Js -->
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+                        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+                        crossorigin="anonymous"></script>
+</body>
+
+</html>
