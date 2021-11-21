@@ -119,7 +119,7 @@ nav ul li:active {
   background: linear-gradient(to right, #021b79, #0575e6);
 }
 
-#standings {
+.standings {
   background: #00c6ff;
   background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);
   background: linear-gradient(to right, #0072ff, #00c6ff);
