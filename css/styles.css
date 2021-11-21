@@ -36,7 +36,6 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-/* --- Header --- */
 
 header {
   background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
@@ -50,6 +49,7 @@ header {
 }
 
 a {
+  color: white;
   position: relative;
 }
 
@@ -76,8 +76,6 @@ nav ul li:active {
   border: outset;
   box-shadow: 3px 3px 2px black;
 }
-
-/* --- Main Index --- */
 
 #main .carousel-inner img,
 #main .carousel-inner {
@@ -115,7 +113,17 @@ nav ul li:active {
   background-image: linear-gradient(to right, 315deg, #29539b 0%, #1e3b70 74%);
 }
 
-/* --- Main Jugadores--- */
+#results {
+  background: #0575e6;
+  background: -webkit-linear-gradient(to right, #021b79, #0575e6);
+  background: linear-gradient(to right, #021b79, #0575e6);
+}
+
+#standings {
+  background: #00c6ff;
+  background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+}
 
 .inner {
   overflow: hidden;
@@ -129,13 +137,12 @@ nav ul li:active {
   transform: scale(1.5);
 }
 
-/* --- Footer --- */
 #footer {
   background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
   color: white;
 }
 
-#footer a {
+#footer div a {
   color: white;
 }
 
