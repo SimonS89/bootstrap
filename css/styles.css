@@ -125,7 +125,6 @@ nav ul li:active {
   background: linear-gradient(to right, #182848, #4b6cb7);
 }
 
-
 #login {
   background: #ffe259;
   background: linear-gradient(to left, #ffa751, #ffe259);
@@ -138,7 +137,7 @@ nav ul li:active {
 }
 
 .bgLogin {
-  background-image: url(/img/loginPhoto.jpg);
+  background-image: url("../img/login.jpg");
   background-position: center center;
   background-size: cover;
 }
