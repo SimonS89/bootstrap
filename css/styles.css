@@ -125,10 +125,21 @@ nav ul li:active {
   background: linear-gradient(to right, #182848, #4b6cb7);
 }
 
+#login {
+  background: #ffe259;
+  background: linear-gradient(to left, #ffa751, #ffe259);
+}
+
 .standings {
   background: #00c6ff;
   background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);
   background: linear-gradient(to right, #0072ff, #00c6ff);
+}
+
+.bgLogin {
+  background-image: url(/img/loginPhoto.jpg);
+  background-position: center center;
+  background-size: cover;
 }
 
 .inner {
