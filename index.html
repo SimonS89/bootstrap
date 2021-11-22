@@ -139,8 +139,9 @@
                                                                         MUCHO”.</p>
                                                                 <a href="login.html"
                                                                         class="btn btn-outline-light">Iniciar sesión</a>
-                                                                <button type="button "
-                                                                        class="btn btn-lifipa">Registrarse</button>
+                                                                <button type="button " class="btn btn-lifipa"
+                                                                        data-bs-toggle="modal"
+                                                                        data-bs-target="#modalRegister">Registrarse</button>
                                                         </div>
                                                 </div>
                                         </div>
@@ -351,6 +352,52 @@
                 </footer>
 
                 <!-- /Footer-->
+
+                <!-- Modal -->
+
+                <div class="modal fade" id="modalRegister" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                                <div class="modal-content">
+                                        <div class="modal-header">
+                                                <h5 class="modal-title fw-bold" id="exampleModalLabel">Registro de
+                                                        usuario</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                                Por el momento la creación de usuarios y administradores esta en
+                                                construcción, puedes brindarnos tu correo para poder contactarte o en la
+                                                sección de información útil encontrarás las maneras de comunicación
+                                                actuales.
+                                                <form>
+                                                        <div class="form-row">
+                                                                <div class="form-group col">
+                                                                        <div class="input-group mb-3">
+                                                                                <input type="text" class="form-control"
+                                                                                        placeholder="Correo electrónico"
+                                                                                        aria-label="Recipient's username"
+                                                                                        aria-describedby="basic-addon2">
+                                                                                <span class="input-group-text"
+                                                                                        id="basic-addon2">@gmail.com</span>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </form>
+                                                <div class="alert alert-warning" role="alert">
+                                                        Recibirás un correo de confirmación por el cual te
+                                                        contactaremos.
+                                                </div>
+                                        </div>
+
+                                        <div class="modal-footer">
+                                                <button type="button" class="btn btn-primary">Entendido</button>
+                                                <button type="button" class="btn btn-lifipa"
+                                                        data-bs-dismiss="modal">Cerrar</button>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
 
                 <!-- Bootstrap Js -->
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
