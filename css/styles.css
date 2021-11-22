@@ -94,7 +94,7 @@ nav ul li:active {
   bottom: 0;
   right: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.2);
   color: white;
   z-index: 1;
 }
@@ -126,8 +126,22 @@ nav ul li:active {
 }
 
 #login {
-  background: #ffe259;
-  background: linear-gradient(to left, #ffa751, #ffe259);
+  /* background: #ffe259;
+  background: linear-gradient(to left, #ffa751, #ffe259); */
+  background: #3ca55c;
+  background: -webkit-linear-gradient(to left, #b5ac49, #3ca55c);
+  background: linear-gradient(to left, #b5ac49, #3ca55c);
+}
+
+.place-time {
+  background: #4b6cb7;
+  background: -webkit-linear-gradient(to right, #182848, #4b6cb7);
+  background: linear-gradient(to right, #182848, #4b6cb7);
+  color: white;
+}
+
+.place-time img {
+  max-width: 100%;
 }
 
 .standings {
