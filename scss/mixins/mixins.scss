@@ -1,0 +1,10 @@
+@mixin medidasCarousel($alto, $ancho, $fit) {
+  height: $alto;
+  width: $ancho;
+  object-fit: $fit;
+}
+
+#main .carousel-inner,
+#main .carousel-inner img {
+  @include medidasCarousel(65vh, 100%, cover);
+}

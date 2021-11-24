@@ -1,8 +1,6 @@
-#main .carousel-inner,
-#main .carousel-inner img {
-  height: 65vh;
-  width: 100%;
-  object-fit: cover; }
+@import "variables/variables.scss";
+@import "operaciones/operaciones.scss";
+@import "mixins/mixins.scss";
 
 :root {
   --color1: #11262a;
@@ -16,37 +14,45 @@
   --color9: #2871e5;
   --color10: #5aa0ff;
   --color11: #f2552a;
-  --color12: #0c71c3; }
+  --color12: #0c71c3;
+}
 
 .text-lifipa {
-  color: #97c93e !important; }
+  color: #97c93e !important;
+}
 
 .btn-lifipa {
   background: #97c93e;
-  color: white; }
+  color: white;
+}
 
 .btn-lifipa:hover {
   background-color: #82ad36;
-  color: white; }
+  color: white;
+}
 
 * {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif; }
+  font-family: "Poppins", sans-serif;
+}
 
 header {
-  background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372); }
+  background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
+}
 
 .logo {
-  width: 120px;
+  width: $anchoLogo;
   border-radius: 10%;
-  padding-right: 20px;
-  align-items: center; }
+  padding-right: $pRLogo;
+  align-items: center;
+}
 
 a {
   color: white;
-  position: relative; }
+  position: relative;
+}
 
 a:before {
   content: "";
@@ -58,16 +64,19 @@ a:before {
   background-color: white;
   visibility: hidden;
   transform: scaleX(0);
-  transition: all 0.3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+}
 
 a:hover:before {
   visibility: visible;
-  transform: scaleX(1); }
+  transform: scaleX(1);
+}
 
 nav ul li:active {
   border: 1px solid;
   border: outset;
-  box-shadow: 3px 3px 2px black; }
+  box-shadow: 3px 3px 2px black;
+}
 
 /*#main .carousel-inner img,
 #main .carousel-inner {
@@ -76,8 +85,10 @@ nav ul li:active {
   width: 100%;
   filter: grayscale(60%);
 }*/
+
 #carousel {
-  position: relative; }
+  position: relative;
+}
 
 #carousel .overlay {
   position: absolute;
@@ -87,80 +98,104 @@ nav ul li:active {
   left: 0;
   background-color: rgba(0, 0, 0, 0.2);
   color: white;
-  z-index: 1; }
+  z-index: 1;
+}
 
 #carousel .overlay .container,
 #carousel .overlay .row {
-  height: 100%; }
+  height: 100%;
+}
 
 #news {
-  background-image: linear-gradient(to right, #09203f 0%, #537895 100%); }
+  background-image: linear-gradient(to right, #09203f 0%, #537895 100%);
+}
 
 #players {
   background-color: #29539b;
-  background-image: linear-gradient(to right, 315deg, #29539b 0%, #1e3b70 74%); }
+  background-image: linear-gradient(to right, 315deg, #29539b 0%, #1e3b70 74%);
+}
 
 #results {
   background: #0575e6;
   background: -webkit-linear-gradient(to right, #021b79, #0575e6);
-  background: linear-gradient(to right, #021b79, #0575e6); }
+  background: linear-gradient(to right, #021b79, #0575e6);
+}
 
 #history {
   background: #4b6cb7;
   background: -webkit-linear-gradient(to right, #182848, #4b6cb7);
-  background: linear-gradient(to right, #182848, #4b6cb7); }
+  background: linear-gradient(to right, #182848, #4b6cb7);
+}
 
 #login {
   background: #3ca55c;
   background: -webkit-linear-gradient(to left, #b5ac49, #3ca55c);
-  background: linear-gradient(to left, #b5ac49, #3ca55c); }
+  background: linear-gradient(to left, #b5ac49, #3ca55c);
+}
 
 .place-time {
   background: #4b6cb7;
   background: -webkit-linear-gradient(to right, #182848, #4b6cb7);
   background: linear-gradient(to right, #182848, #4b6cb7);
-  color: white; }
+  color: white;
+}
 
 .place-time img {
-  max-width: 100%; }
+  max-width: 100%;
+}
 
 .standings {
   background: #00c6ff;
   background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);
-  background: linear-gradient(to right, #0072ff, #00c6ff); }
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+}
 
 .bgLogin {
   background-image: url("../img/login.jpg");
   background-position: center center;
-  background-size: cover; }
+  background-size: cover;
+}
 
 .inner {
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 .inner img {
-  transition: all 1.5s ease-in-out; }
+  transition: all 1.5s ease-in-out;
+}
 
 .inner:hover img {
-  transform: scale(1.5); }
+  transform: scale(1.5);
+}
 
 #footer {
   background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
-  color: white; }
+  color: white;
+}
 
 #footer div a {
-  color: white; }
+  color: white;
+}
 
 .fab {
-  font-size: 35.71429px; }
+  font-size: $fab;
+}
 
-@media (max-width: 1000px) {
+// Media query para cambiarle el color a los botones a partir de determinado ancho de pantalla
+
+@media (max-width: ($mediaQuery)) {
   .btn-lifipa:hover {
     background-color: #00b7eb;
-    color: white; }
+    color: white;
+  }
   .text-lifipa {
-    color: #00ffff !important; }
+    color: #00ffff !important;
+  }
   .btn-lifipa {
     background: #00ffff;
-    color: white; }
+    color: white;
+  }
   .bg__Inner__Login {
-    background: #87cefa !important; } }
+    background: $loginBg !important;
+  }
+} ;
