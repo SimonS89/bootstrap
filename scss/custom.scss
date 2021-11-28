@@ -69,14 +69,6 @@ nav ul li a:active {
   box-shadow: 3px 3px 2px black;
 }
 
-#main .carousel-inner img,
-#main .carousel-inner {
-  height: 65vh;
-  object-fit: cover;
-  width: 100%;
-  /*filter: grayscale(60%);*/
-}
-
 #carousel {
   position: relative;
   .overlay {
