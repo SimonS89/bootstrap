@@ -52,15 +52,16 @@ header {
 a {
   color: white;
   position: relative;
-  -webkit-transition-duration: 0.5s; /* Safari */
+  -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
   text-decoration: none;
 }
 
+p a:hover,
 ul li a:hover {
   visibility: visible;
   transform: scaleX(1);
-  background-color: #3ca55c; /* Green */
+  background-color: #3ca55c;
   color: white;
 }
 

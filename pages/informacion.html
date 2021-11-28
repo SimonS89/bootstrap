@@ -13,6 +13,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
                 integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
                 crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="../css/styles.css">
         <title>Lifipa Domicilios y horarios</title>
         <link rel="shortcut icon" href="../img/lifipa1.ico" sizes="16x16" type="image/x-icon">
@@ -91,21 +92,55 @@
         <!-- /H eader -->
 
         <!-- Main Información importante de -->
-        <main>
-                <div class="container-fluid border border-5 border-light">
-                        <div class="row">
-                                <div class="col text-center text-uppercase">
-                                        <h1 class="fw-bolder fs-2 pb-4 pt-4"><span class="text-warning">Jugadores
-                                                        destacados
-                                                        que</span>
-                                                <span class="text-white"> surgieron de Lifipa</span>
-                                        </h1>
+
+        <main id="main">
+                <div id="carousel">
+                        <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                        <img src="../img/carou.jpg" class="d-block w-100  img-fluid"
+                                                alt="Imagen dark side of the moon - pink floyd">
+                                </div>
+                                <div class="overlay">
+                                        <div class="container">
+                                                <div class="row align-items-center">
+                                                        <div class="col-md-6 offset-md-6 text-center text-md-end"
+                                                                data-aos="fade-right" data-aos-offset="300"
+                                                                data-aos-easing="ease-in-sine">
+                                                                <p class="d-xl-block fs-5">"Y cuando el buen fútbol
+                                                                        ocurre, agradezco el milagro sin que me importe
+                                                                        cual es el club o el pais que me lo ofrece.".
+                                                                </p>
+                                                                <p class="d-xl-block"><a
+                                                                                href="https://es.wikipedia.org/wiki/Eduardo_Galeano"
+                                                                                target="_blank"
+                                                                                class="text-light fw-bold">
+                                                                                Eduardo Galeano</a></p>
+                                                        </div>
+                                                </div>
+                                        </div>
                                 </div>
                         </div>
                 </div>
         </main>
 
-        <!-- /Main-->
+        <!-- /M ain -->
+
+        <!-- Seccion información util -->
+
+        <section id="players" class="pb-5">
+                <div class="container-fluid border border-5 border-light">
+                        <div class="row">
+                                <div class="col text-center text-uppercase">
+                                        <h1 class="fw-bolder fs-2 pb-4 pt-4"><span class="text-warning">Página de
+                                                        Información </span>
+                                                <span class="text-white">útil en Construcción</span>
+                                        </h1>
+                                </div>
+                        </div>
+                </div>
+        </section>
+
+        <!-- /S eccion -->
 
         <!-- Footer -->
 
@@ -129,11 +164,17 @@
 
         <!-- /Footer-->
 
+        <!-- Animacion Aos -->
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>AOS.init();</script>
 
         <!-- Bootstrap Js -->
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
                 crossorigin="anonymous"></script>
+
 </body>
 
 </html>

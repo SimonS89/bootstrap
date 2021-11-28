@@ -48,27 +48,19 @@ a {
   color: white;
   position: relative;
   -webkit-transition-duration: 0.5s;
-  /* Safari */
   transition-duration: 0.5s;
   text-decoration: none; }
 
+p a:hover,
 ul li a:hover {
   visibility: visible;
   transform: scaleX(1);
   background-color: #3ca55c;
-  /* Green */
   color: white; }
 
 nav ul li a:active {
   border: 1px solid;
   box-shadow: 3px 3px 2px black; }
-
-#main .carousel-inner img,
-#main .carousel-inner {
-  height: 65vh;
-  object-fit: cover;
-  width: 100%;
-  /*filter: grayscale(60%);*/ }
 
 #carousel {
   position: relative; }
@@ -130,7 +122,7 @@ nav ul li a:active {
   overflow: hidden; }
   .inner img {
     transition: all 1.5s ease-in-out; }
-  .inner img:hover {
+  .inner:hover {
     transform: scale(1.5); }
 
 #footer {
