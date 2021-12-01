@@ -144,9 +144,10 @@ nav ul li a:active {
   img {
     transition: all 1.5s ease-in-out;
   }
-  &:hover {
-    transform: scale(1.5);
-  }
+}
+
+.inner img:hover {
+  transform: scale(1.5);
 }
 
 #footer {

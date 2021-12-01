@@ -39,7 +39,7 @@ header {
   background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372); }
 
 .logo {
-  width: 120px;
+  width: 90px;
   border-radius: 10%;
   padding-right: 20px;
   align-items: center; }
@@ -122,8 +122,9 @@ nav ul li a:active {
   overflow: hidden; }
   .inner img {
     transition: all 1.5s ease-in-out; }
-  .inner:hover {
-    transform: scale(1.5); }
+
+.inner img:hover {
+  transform: scale(1.5); }
 
 #footer {
   background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
