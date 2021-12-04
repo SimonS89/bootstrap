@@ -86,7 +86,9 @@ nav ul li a:active {
   background: linear-gradient(to right, #021b79, #0575e6); }
 
 #history {
-  background: #eaeaea; }
+  background: #0575e6;
+  background: -webkit-linear-gradient(to right, #021b79, #0575e6);
+  background: linear-gradient(to right, #021b79, #0575e6); }
 
 #login {
   background: #3ca55c;
@@ -94,7 +96,9 @@ nav ul li a:active {
   background: linear-gradient(to left, #b5ac49, #3ca55c); }
 
 .place-time {
-  background: #eaeaea;
+  background: #0575e6;
+  background: -webkit-linear-gradient(to right, #021b79, #0575e6);
+  background: linear-gradient(to right, #021b79, #0575e6);
   color: black; }
   .place-time img {
     max-width: 100%; }
