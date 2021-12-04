@@ -50,7 +50,7 @@ p a:hover,
 ul li a:hover {
   visibility: visible;
   transform: scaleX(1);
-  background-color: #1b262c;
+  background-color: #3ca55c;
   color: white; }
 
 nav ul li a:active {
