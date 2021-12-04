@@ -3,18 +3,13 @@
 @import "mixins/mixins.scss";
 
 :root {
-  --color1: #11262a;
-  --color2: #0d4e58;
-  --color3: #148490;
-  --color4: #26c7d2;
-  --color5: #4dfff8;
-  --color6: #000000;
-  --color7: #001f45;
-  --color8: #004690;
-  --color9: #2871e5;
-  --color10: #5aa0ff;
-  --color11: #f2552a;
-  --color12: #0c71c3;
+  --color1: #004a7c;
+  --color2: #005691;
+  --color3: #3282b8;
+  --color4: #bbe1fa;
+  --color5: #e8f1f5;
+  --color6: #fafafa;
+  --color7: #1b262c;
 }
 
 .text-lifipa {
@@ -27,7 +22,7 @@
 }
 
 .btn-lifipa:hover {
-  background-color: #82ad36;
+  background-color: #3ca55c;
   color: white;
 }
 
@@ -39,7 +34,7 @@
 }
 
 header {
-  background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
+  background: linear-gradient(90deg, #004a7c, #005691 25%, #3282b8);
 }
 
 .logo {
@@ -61,7 +56,7 @@ p a:hover,
 ul li a:hover {
   visibility: visible;
   transform: scaleX(1);
-  background-color: #3ca55c;
+  background-color: #1b262c;
   color: white;
 }
 
@@ -91,7 +86,8 @@ nav ul li a:active {
 }
 
 #news {
-  background-image: linear-gradient(to right, #09203f 0%, #537895 100%);
+  //   background-image: linear-gradient(to right, #09203f 0%, #537895 100%);
+  background: #eaeaea;
 }
 
 #players {
@@ -106,9 +102,9 @@ nav ul li a:active {
 }
 
 #history {
-  background: #4b6cb7;
-  background: -webkit-linear-gradient(to right, #182848, #4b6cb7);
-  background: linear-gradient(to right, #182848, #4b6cb7);
+  background: #eaeaea;
+  //   background: -webkit-linear-gradient(to right, #004a7c, #005691);
+  //   background: linear-gradient(to right, #004a7c, #005691);
 }
 
 #login {
@@ -118,10 +114,10 @@ nav ul li a:active {
 }
 
 .place-time {
-  background: #4b6cb7;
-  background: -webkit-linear-gradient(to right, #182848, #4b6cb7);
-  background: linear-gradient(to right, #182848, #4b6cb7);
-  color: white;
+  background: #eaeaea;
+  //   background: -webkit-linear-gradient(to right, #004a7c, #005691);
+  //   background: linear-gradient(to right, #004a7c, #005691);
+  color: black;
   img {
     max-width: 100%;
   }
@@ -138,6 +134,9 @@ nav ul li a:active {
   background-position: center center;
   background-size: cover;
 }
+.bg__Inner__Login {
+  background: $loginBg;
+}
 
 .inner {
   overflow: hidden;
@@ -151,15 +150,116 @@ nav ul li a:active {
 }
 
 #footer {
-  background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
+  background: linear-gradient(90deg, #004a7c, #005691 25%, #3282b8);
   color: white;
-  div a {
-    color: white;
-  }
 }
 
-.fab {
-  font-size: $fab;
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.svg-inline--fa {
+  vertical-align: -0.2em;
+}
+
+.rounded-social-buttons {
+  text-align: center;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover,
+.rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-twitter,
+.fa-facebook-f,
+.fa-linkedin,
+.fa-youtube,
+.fa-instagram {
+  font-size: 25px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.facebook:hover,
+.rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
+}
+
+.rounded-social-buttons .social-button.whatsapp {
+  background: #25d366;
+}
+
+.rounded-social-buttons .social-button.whatsapp:hover,
+.rounded-social-buttons .social-button.whatsapp:focus {
+  color: #25d366;
+  background: #fefefe;
+  border-color: #25d366;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.linkedin:hover,
+.rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+
+.rounded-social-buttons .social-button.youtube {
+  background: #bb0000;
+}
+
+.rounded-social-buttons .social-button.youtube:hover,
+.rounded-social-buttons .social-button.youtube:focus {
+  color: #bb0000;
+  background: #fefefe;
+  border-color: #bb0000;
+}
+
+.rounded-social-buttons .social-button.instagram {
+  background: #f09433;
+}
+
+.rounded-social-buttons .social-button.instagram:hover,
+.rounded-social-buttons .social-button.instagram:focus {
+  color: #f09433;
+  background: #fefefe;
+  border-color: #f09433;
 }
 
 // Media query para cambiarle el color a los botones a partir de determinado ancho de pantalla
@@ -178,5 +278,11 @@ nav ul li a:active {
   }
   .bg__Inner__Login {
     background: $loginBg !important;
+  }
+  .rounded-social-buttons {
+    padding-top: 17px;
+  }
+  .footer__conocer_none {
+    display: none;
   }
 }

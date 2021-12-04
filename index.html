@@ -61,7 +61,7 @@
                                                                 Ver más
                                                         </a>
                                                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                                <li><a class="dropdown-item"
+                                                                <li><a class="dropdown-item "
                                                                                 href="pages/fixture.html">Fixture</a>
                                                                 </li>
                                                                 <li>
@@ -175,11 +175,12 @@
         <!-- Seccion de News -->
 
         <section id="news">
-                <div class="container-fluid border border-5 border-light">
+                <div class="container-fluid">
                         <div class="row">
-                                <div class="col text-center text-uppercase">
+                                <div class="col text-center text-uppercase border border-5 border-light"
+                                        data-aos="zoom-in">
                                         <h1 class="fw-bolder fs-2 pb-4 pt-4"><span class="text-warning">Noticias</span>
-                                                <span class="text-white">Internacionales</span>
+                                                <span class="text-dark">Internacionales</span>
                                         </h1>
                                 </div>
                         </div>
@@ -187,9 +188,9 @@
                 <div class="container pt-4">
                         <div class="row">
                                 <div class="col">
-                                        <div class="card card text-white bg-danger mb-3 mb-3 ms-auto"
+                                        <div class="card shadow-lg rounded card text-white bg-primary mb-3 mb-3 ms-auto"
                                                 data-aos="fade-right" data-aos-offset="300"
-                                                data-aos-easing="ease-in-sine" data-aos-duration="1500">
+                                                data-aos-easing="ease-in-sine" data-aos-duration="1000">
                                                 <div class="row g-0">
                                                         <div class="col-md-4 col">
                                                                 <div class="card-body">
@@ -233,9 +234,9 @@
                 <div class="container">
                         <div class="row">
                                 <div class="col">
-                                        <div class="card card text-white bg-danger mb-3" data-aos="fade-left"
-                                                data-aos-offset="300" data-aos-easing="ease-in-sine"
-                                                data-aos-duration="1500">
+                                        <div class="card shadow-lg rounded card text-white bg-primary mb-3"
+                                                data-aos="fade-left" data-aos-offset="300"
+                                                data-aos-easing="ease-in-sine" data-aos-duration="1000">
                                                 <div class="row g-0">
                                                         <div class="col-md-8">
                                                                 <img src="img/kane.jpg" class="img-fluid rounded-start"
@@ -285,7 +286,7 @@
                                 <div class="col text-center text-uppercase">
                                         <h2 class="fw-bolder fs-2 pb-4 pt-4"><span
                                                         class="text-warning">Convocatorias</span>
-                                                <span class="text-white"> jugadores/as</span>
+                                                <span class="text-dark"> jugadores/as</span>
                                         </h2>
                                 </div>
                         </div>
@@ -293,8 +294,8 @@
                 <div class="container pb-5 pt-5">
                         <div class="row row-cols-1 row-cols-md-2 g-4">
                                 <div class="col">
-                                        <div class="card shadow-lg rounded bg-dark text-white">
-
+                                        <div class="card shadow-lg rounded bg-primary fw-bold text-white"
+                                                data-aos="fade-right">
                                                 <img src="img/convocatoria1.jpg" class="card-img-top"
                                                         alt="folleto de convocatoria beto avalos">
                                                 <div class="card-body">
@@ -309,7 +310,8 @@
                                         </div>
                                 </div>
                                 <div class="col">
-                                        <div class="card bg-dark text-white shadow-lg rounded">
+                                        <div class="card bg-primary fw-bold text-white shadow-lg rounded"
+                                                data-aos="fade-left">
                                                 <img src="img/convocatoria2.jpg" class="card-img-top"
                                                         alt="folleto de convocatoria aeropuerto">
                                                 <div class="card-body">
@@ -326,7 +328,8 @@
                                         </div>
                                 </div>
                                 <div class="col">
-                                        <div class="card bg-dark text-white shadow-lg rounded">
+                                        <div class="card bg-primary fw-bold text-white shadow-lg rounded"
+                                                data-aos="fade-right">
                                                 <img src="img/convocatoria3.jpg" class="card-img-top"
                                                         alt="folleto de convocatoria toronto city">
                                                 <div class="card-body">
@@ -340,7 +343,8 @@
                                         </div>
                                 </div>
                                 <div class="col">
-                                        <div class="card bg-dark text-white shadow-lg rounded">
+                                        <div class="card bg-primary fw-bold text-white shadow-lg rounded"
+                                                data-aos="fade-left">
                                                 <img src="img/convocatoria4.jpg" class="card-img-top"
                                                         alt="folleto de convocatoria fie25">
                                                 <div class="card-body">
@@ -361,19 +365,46 @@
 
         <!-- Footer -->
 
-        <footer id="footer" class="pb-5 pt-5 ">
+        <footer id="footer" class="pb-4 pt-4">
                 <div class="container fs-5">
                         <div class="row text-center">
-                                <div class="col-12 col-lg"> <a href="#">Derechos reservados</a> </div>
-                                <div class="col-12 col-lg"> <a href="pages/informacion.html">Información útil</a>
+                                <div class="col-12 col-lg-7  footer__conocer_none align-self-center">
+                                        Si
+                                        querés
+                                        saber más
+                                        sobre
+                                        nosotros,
+                                        visitanos en
+                                        nuestras redes sociales</div>
+                                <div class="col-12 col-lg-5">
+                                        <div class="rounded-social-buttons">
+                                                <a class="social-button facebook"
+                                                        href="https://www.facebook.com/Lifipa-494705017259516"
+                                                        rel="noopener" target="_blank"><i
+                                                                class="fab fa-facebook-f"></i></a>
+                                                <a class="social-button whatsapp"
+                                                        href="https://api.whatsapp.com/send?phone=542215578552"
+                                                        rel="noopener" target="_blank"><i
+                                                                class="fab fa-whatsapp"></i></a>
+                                                <a class="social-button linkedin"
+                                                        href="https://www.linkedin.com/in/simon-sueldo-ab7b539b"
+                                                        target="_blank" rel="noopener"><i
+                                                                class="fab fa-linkedin"></i></a>
+                                                <a class="social-button youtube"
+                                                        href="https://www.youtube.com/watch?v=2AbC7r77srs&t=189s"
+                                                        target="_blank" rel="noopener"><i
+                                                                class="fab fa-youtube"></i></a>
+                                                <a class="social-button instagram"
+                                                        href="https://www.instagram.com/lifipa_oficial/" rel="noopener"
+                                                        target="_blank"><i class="fab fa-instagram"></i></a>
+                                        </div>
                                 </div>
-                                <div class="col-12 col-lg"> <a href="#"> Preguntas frecuentes</a>
-                                </div>
-                                <div class="col-12 col-lg"> <a href="https://www.facebook.com/Lifipa-494705017259516"
-                                                rel="noopener" target="_blank"><i class=" fab fa-facebook"></i></a>
-                                </div>
-                                <div class="col-12 col-lg"> <a href="https://www.instagram.com/lifipa_oficial/"
-                                                rel="noopener" target="_blank"><i class=" fab fa-instagram"></i></a>
+                        </div>
+                        <hr>
+                        <div class="row text-center pt-3">
+                                <div class="col-12 col-lg-12">
+                                        <p>Todos los Derechos reservados © LIFIPA
+                                                1976-2021</p>
                                 </div>
                         </div>
                 </div>
@@ -397,6 +428,7 @@
                                         construcción, puedes brindarnos tu correo para poder contactarte o en la
                                         sección de información útil encontrarás las maneras de comunicación
                                         actuales.
+                                        <p></p>
                                         <form>
                                                 <div class="form-row">
                                                         <div class="form-group col">

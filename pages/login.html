@@ -97,7 +97,7 @@
                         <div class="row align-items-stretch">
                                 <div class="col bgLogin d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded ">
                                 </div>
-                                <div class="col bg-white p-2 rounded-end bg__Inner__Login">
+                                <div class="col p-2 rounded-end bg__Inner__Login">
                                         <div class="text-end">
                                                 <a href="../index.html">
                                                         <img src="../img/lifipa.jpg" width="48px" alt="logo lifipa">
@@ -110,12 +110,13 @@
                                         <form action="#">
                                                 <div class="mb-4">
                                                         <label for="email" class="form-label">Correo eléctronico</label>
-                                                        <input type="email" class="form-control" name="email">
+                                                        <input type="email" class="form-control" name="email" required>
                                                 </div>
                                                 <div class="mb-4">
                                                         <label for="password" class="form-label">Contraseña
                                                         </label>
-                                                        <input type="password" class="form-control" name="password">
+                                                        <input type="password" class="form-control" name="password"
+                                                                required>
                                                 </div>
                                                 <div class="mb-4 form-check">
                                                         <input type="checkbox" name="connected" class="form-check-input"
@@ -124,14 +125,18 @@
                                                                 conectado</label>
                                                 </div>
                                                 <div class="d-grid">
-                                                        <button type="submit" class="btn btn-primary">
+                                                        <button type="submit" class="btn btn-primary"
+                                                                style="outline-style: outset;">
                                                                 iniciar sesión
                                                         </button>
                                                         <div class="my-3">
-                                                                <span>No tenés cuenta? <a class="text-primary"
-                                                                                href="#">Registrate</a></span>
+                                                                <span>No tenés cuenta? <a class="text-primary" href="#"
+                                                                                data-bs-toggle="modal"
+                                                                                data-bs-target="#modalRegister">Registrate</a></span>
                                                                 <br>
-                                                                <span><a class="text-primary" href="#">Recuperar
+                                                                <span><a class="text-primary" href="#"
+                                                                                data-bs-toggle="modal"
+                                                                                data-bs-target="#modalPassword">Recuperar
                                                                                 contraseña </a></span>
                                                         </div>
                                                 </div>
@@ -146,8 +151,8 @@
                                                         </div>
                                                         <div class="row">
                                                                 <div class="col">
-                                                                        <button
-                                                                                class="btn btn-outline-primary w-100 my-1">
+                                                                        <button class="btn btn-outline-primary w-100 my-1"
+                                                                                style="outline-style: outset;">
                                                                                 <div class="row align-items-center">
                                                                                         <div
                                                                                                 class="col-2 d-none d-md-block">
@@ -163,8 +168,8 @@
                                                                         </button>
                                                                 </div>
                                                                 <div class="col">
-                                                                        <button
-                                                                                class="btn btn-outline-danger w-100 my-1">
+                                                                        <button class="btn btn-outline-danger w-100 my-1"
+                                                                                style="outline-style: outset;">
                                                                                 <div class="row align-items-center">
                                                                                         <div
                                                                                                 class="col-2 d-none d-md-block">
@@ -191,23 +196,140 @@
 
         <!-- Footer -->
 
-        <footer id="footer" class="pb-5 pt-5 ">
+        <footer id="footer" class="pb-4 pt-4">
                 <div class="container fs-5">
                         <div class="row text-center">
-                                <div class="col-12 col-lg"> <a href="#">Derechos reservados</a> </div>
-                                <div class="col-12 col-lg"> <a href="informacion.html">Información útil</a>
+                                <div class="col-12 col-lg-7  footer__conocer_none align-self-center">
+                                        Si
+                                        querés
+                                        saber más
+                                        sobre
+                                        nosotros,
+                                        visitanos en
+                                        nuestras redes sociales</div>
+                                <div class="col-12 col-lg-5">
+                                        <div class="rounded-social-buttons">
+                                                <a class="social-button facebook"
+                                                        href="https://www.facebook.com/Lifipa-494705017259516"
+                                                        rel="noopener" target="_blank"><i
+                                                                class="fab fa-facebook-f"></i></a>
+                                                <a class="social-button whatsapp"
+                                                        href="https://api.whatsapp.com/send?phone=542215578552"
+                                                        rel="noopener" target="_blank"><i
+                                                                class="fab fa-whatsapp"></i></a>
+                                                <a class="social-button linkedin"
+                                                        href="https://www.linkedin.com/in/simon-sueldo-ab7b539b"
+                                                        target="_blank" rel="noopener"><i
+                                                                class="fab fa-linkedin"></i></a>
+                                                <a class="social-button youtube"
+                                                        href="https://www.youtube.com/watch?v=2AbC7r77srs&t=189s"
+                                                        target="_blank" rel="noopener"><i
+                                                                class="fab fa-youtube"></i></a>
+                                                <a class="social-button instagram"
+                                                        href="https://www.instagram.com/lifipa_oficial/" rel="noopener"
+                                                        target="_blank"><i class="fab fa-instagram"></i></a>
+                                        </div>
                                 </div>
-                                <div class="col-12 col-lg"> <a href="#"> Preguntas frecuentes</a>
-                                </div>
-                                <div class="col-12 col-lg"> <a href="https://www.facebook.com/Lifipa-494705017259516"
-                                                rel="noopener" target="_blank"><i class=" fab fa-facebook"></i></a>
-                                </div>
-                                <div class="col-12 col-lg"> <a href="https://www.instagram.com/lifipa_oficial/"
-                                                rel="noopener" target="_blank"><i class=" fab fa-instagram"></i></a>
+                        </div>
+                        <hr>
+                        <div class="row text-center pt-3">
+                                <div class="col-12 col-lg-12">
+                                        <p>Todos los Derechos reservados © LIFIPA
+                                                1976-2021</p>
                                 </div>
                         </div>
                 </div>
         </footer>
+
+        <!-- /Footer-->
+
+        <!-- Modal -->
+
+        <div class="modal fade" id="modalRegister" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                        <div class="modal-content">
+                                <div class="modal-header">
+                                        <h5 class="modal-title fw-bold" id="exampleModalLabel">Registro de
+                                                usuario</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                        Por el momento la creación de usuarios y administradores esta en
+                                        construcción, puedes brindarnos tu correo para poder contactarte o en la
+                                        sección de información útil encontrarás las maneras de comunicación
+                                        actuales.
+                                        <p></p>
+                                        <form>
+                                                <div class="form-row">
+                                                        <div class="form-group col">
+                                                                <div class="input-group mb-3">
+                                                                        <input type="text" class="form-control"
+                                                                                placeholder="Correo electrónico"
+                                                                                aria-label="Recipient's username"
+                                                                                aria-describedby="basic-addon2">
+                                                                        <span class="input-group-text"
+                                                                                id="basic-addon2">@gmail.com</span>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </form>
+                                        <div class="alert alert-warning" role="alert">
+                                                Recibirás un correo de confirmación por el cual te
+                                                contactaremos.
+                                        </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary">Entendido</button>
+                                        <button type="button" class="btn btn-lifipa"
+                                                data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                        </div>
+                </div>
+        </div>
+        <div class="modal fade" id="modalPassword" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                        <div class="modal-content">
+                                <div class="modal-header">
+                                        <h5 class="modal-title fw-bold" id="exampleModalLabel">Recuperar Contraseña</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                        Para recuperar la contraseña , ingresa, a continuación, el correo electrónico
+                                        con el cual te registraste.
+                                        <p></p>
+                                        <form>
+                                                <div class="form-row">
+                                                        <div class="form-group col">
+                                                                <div class="input-group mb-3">
+                                                                        <input type="text" class="form-control"
+                                                                                placeholder="Correo electrónico"
+                                                                                aria-label="Recipient's username"
+                                                                                aria-describedby="basic-addon2">
+                                                                        <span class="input-group-text"
+                                                                                id="basic-addon2">@gmail.com</span>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </form>
+                                        <div class="alert alert-warning" role="alert">
+                                                Presiona entendido y luego cerrar.
+                                                Recibirás un correo con los pasos a seguir para la recuperación de la
+                                                contraseña.
+                                        </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary">Entendido</button>
+                                        <button type="button" class="btn btn-lifipa"
+                                                data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                        </div>
+                </div>
+        </div>
+
 
         <!-- /Footer-->
 
