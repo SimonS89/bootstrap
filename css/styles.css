@@ -238,4 +238,6 @@ iframe {
   .rounded-social-buttons {
     padding-top: 17px; }
   .footer__conocer_none {
+    display: none; }
+  .erase {
     display: none; } }
