@@ -128,6 +128,11 @@ nav ul li a:active {
   background: linear-gradient(to right, #0072ff, #00c6ff);
 }
 
+iframe {
+  max-width: 100%;
+  height: 450px;
+}
+
 .bgLogin {
   background-image: url("../img/login.jpg");
   background-position: center center;
