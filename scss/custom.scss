@@ -10,6 +10,7 @@
   --color5: #e8f1f5;
   --color6: #fafafa;
   --color7: #1b262c;
+  --color8: #eaeaea;
 }
 
 .text-lifipa {
@@ -153,6 +154,11 @@ iframe {
   transform: scale(1.5);
 }
 
+.bg__header {
+  background: var(--color5);
+  background-color: var(--color5);
+}
+
 #footer {
   background: linear-gradient(90deg, #004a7c, #005691 25%, #3282b8);
   color: white;
@@ -291,5 +297,8 @@ iframe {
   }
   .erase {
     display: none;
+  }
+  .h1 {
+    font-size: 30px;
   }
 }
