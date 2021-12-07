@@ -32,7 +32,7 @@
   font-family: "Poppins", sans-serif; }
 
 header {
-  background: linear-gradient(90deg, #004a7c, #005691 25%, #3282b8); }
+  background: linear-gradient(90deg, var(--color1), var(--color2) 25%, var(--color3)); }
 
 .logo {
   width: 90px;
@@ -51,7 +51,7 @@ p a:hover,
 ul li a:hover {
   visibility: visible;
   transform: scaleX(1);
-  background-color: #3282b8;
+  background-color: var(--color3);
   color: white; }
 
 nav ul li a:active {
@@ -75,18 +75,9 @@ nav ul li a:active {
       height: 100%; }
 
 #news {
-  background: #eaeaea; }
-
-#players {
-  background-color: #29539b;
-  background-image: linear-gradient(to right, 315deg, #29539b 0%, #1e3b70 74%); }
+  background: var(--color8); }
 
 #results {
-  background: #0575e6;
-  background: -webkit-linear-gradient(to right, #021b79, #0575e6);
-  background: linear-gradient(to right, #021b79, #0575e6); }
-
-#history {
   background: #0575e6;
   background: -webkit-linear-gradient(to right, #021b79, #0575e6);
   background: linear-gradient(to right, #021b79, #0575e6); }
@@ -135,7 +126,7 @@ iframe {
   color: var(--color7); }
 
 #footer {
-  background: linear-gradient(90deg, #004a7c, #005691 25%, #3282b8);
+  background: linear-gradient(90deg, var(--color1), var(--color2) 25%, var(--color3));
   color: white; }
 
 .text {
