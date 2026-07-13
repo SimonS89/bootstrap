@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://app.ligaweb.com.ar/public/lifipa",
+      "permanent": true
+    }
+  ]
+}
